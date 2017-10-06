@@ -4,11 +4,14 @@
   "description": "",
   "main": "site.js",
   "scripts": {
-    "start": "reload -b"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "reload": "^2.2.2"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
   }
 }
